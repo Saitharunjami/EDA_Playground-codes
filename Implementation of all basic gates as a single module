@@ -108,6 +108,7 @@ end
 
 endmodule
 
+
 ---------------------------------------------------------------------------------------------------------------------------------
 
 //Structural model
@@ -225,6 +226,7 @@ endmodule
 
 //Behavioural mode
 
+
 //Design code:
 
 // Implementation of gates using Behavioural model
@@ -337,9 +339,10 @@ module tb();
 
 reg tb_a, tb_b;
 
+
 wire tb_y_and, tb_y_or, tb_y_xor, tb_y_nand, tb_y_nor, tb_y_xnor, tb_y_not;
 
-// instantiation or port-map
+//   instantiation or port-map
 
 and_or_xor_bh ints1(
 
@@ -404,3 +407,4 @@ $finish;
 end
 
 endmodule
+
