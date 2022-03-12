@@ -1,5 +1,4 @@
 //Testbench :
-
 module tb();
   
  reg tb_a, tb_b, tb_c;
