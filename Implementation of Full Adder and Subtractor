@@ -1,5 +1,5 @@
 //Testbench :
-module tb(); 
+  module tb(); 
 reg tb_a, tb_b, tb_c;
   wire tb_sum, tb_carry, tb_diff, tb_bor;
   
