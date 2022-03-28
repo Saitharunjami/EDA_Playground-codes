@@ -1,4 +1,5 @@
 //Testbench:
+
 module tb();
 reg [3:0]tb_A;
 reg [3:0]tb_B;
@@ -29,6 +30,7 @@ endmodule
 
 
 //DESIGN:
+
 module mag_comp_4bit(
 input [3:0]A, [3:0]B,
 output reg L, G, E
