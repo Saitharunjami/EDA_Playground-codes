@@ -27,7 +27,6 @@ $finish;
 end
 endmodule
 
-
 //Design code:
 // Demultiplexer design code
 module demux_1x4 (
