@@ -1,6 +1,5 @@
 //TESTBENCH :
 // testbench code
-
 module tb();
 reg [7:0]tb_I;
 reg [2:0]tb_S;
