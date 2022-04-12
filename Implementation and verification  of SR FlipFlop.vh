@@ -1,7 +1,5 @@
 //IMPLEMENTATION AND VERIFICATION of SR FlipFlop
-
 //TESTBENCH:
-
 module tb();
 reg tb_S, tb_R, tb_clk, tb_Qn;
 wire tb_Qn_1;
