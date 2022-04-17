@@ -37,7 +37,10 @@ $finish;
 end
 endmodule
 
-DESIGN:
+
+//DESIGN:
+
+
 module JK_FF(
 input J, K, clk, Qn,
 output reg Qn_1
