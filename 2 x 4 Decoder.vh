@@ -1,4 +1,5 @@
 //TestBench:
+
 module tb();
 reg tb_i0,tb_i1;
 wire tb_y0,tb_y1,tb_y2,tb_y3;
@@ -31,7 +32,10 @@ end
 endmodule
 
 
+
+
 //Design:
+
 module decode_2x4(
 input i0,i1,
 output y0,y1,y2,y3
