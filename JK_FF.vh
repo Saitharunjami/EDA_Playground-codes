@@ -1,6 +1,7 @@
 //IMPLEMENTATION AND VERIFICATION of JK FlipFlop
 //TESTBENCH:
 
+
 module tb();
 reg tb_J, tb_K, tb_clk, tb_Qn;
 wire tb_Qn_1;
@@ -39,9 +40,8 @@ end
 endmodule
 
 
+
 //DESIGN:
-
-
 module JK_FF(
 input J, K, clk, Qn,
 output reg Qn_1
