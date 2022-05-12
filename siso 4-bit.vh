@@ -1,5 +1,4 @@
 //TESTBENCH:
-
 module tb();
   reg tb_clk, tb_A;
   wire tb_B0, tb_B1, tb_B2, tb_B3;
